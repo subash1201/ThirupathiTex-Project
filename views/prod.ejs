@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Thirupathi Tex</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <form  action="/prod" method="POST">
+
+      <div class="navigation-bar">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-dark" >
+            <a class="navbar-brand" href="" style="padding:5px 20px ;color:white;">Thirupathi Tex</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+         </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#shirts" style="padding:5px 20px;color:white;">Shirts</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#tshirts" style="  padding:5px 20px;color:white;" >T-Shirts</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#pants" style="  padding:5px 20px;color:white;">Pants</a>
+                </li>
+
+              </ul>
+            </div>
+
+      </div>
+
+
+      <section id="shirts" style="padding:50px 120px;">
+
+            <div class="row">
+
+                <% items.shirts.forEach(function(item){ %>
+                  <div class="col-shirts col-lg-4 col-md-6 col-sm-12">
+                <div class="card  card-img" style="width:18rem; margin-right:50px; margin-bottom:25px;">
+                  <img src="img/<%= item.imgName %>" class="card-img-top" alt="..." height="300">
+                  <div class="card-body">
+                    <table>
+                      <tr>
+                        <td>  <h5 class="card-title"><%= item.name %></h5>
+                          <p class="card-text">₹<%= item.price %></p></td>
+                          <td><a href="/order" name="white001" class="btn btn-primary">BUY</a></td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+                </div>
+                <% }) %>
+
+
+            </div>
+
+      </section>
+
+      <section id="tshirts" style="padding:50px 120px;">
+
+            <div class="row">
+
+                <% items.tshirts.forEach(function(item){ %>
+                  <div class="col-shirts col-lg-4 col-md-6 col-sm-12">
+                <div class="card  card-img" style="width:18rem; margin-right:50px; margin-bottom:25px;">
+                  <img src="img/<%= item.imgName %>" class="card-img-top" alt="..." height="300">
+                  <div class="card-body">
+                    <table>
+                      <tr>
+                        <td>  <h5 class="card-title"><%= item.name %></h5>
+                          <p class="card-text">₹<%= item.price %></p></td>
+                          <td><a href="/order" name="white001" class="btn btn-primary">BUY</a></td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+                </div>
+                <% }) %>
+
+
+            </div>
+
+      </section>
+
+      <section id="pants" style="padding:50px 120px;">
+
+            <div class="row">
+
+                <% items.pants.forEach(function(item){ %>
+                  <div class="col-shirts col-lg-4 col-md-6 col-sm-12">
+                <div class="card  card-img" style="width:18rem; margin-right:50px; margin-bottom:25px;">
+                  <img src="img/<%= item.imgName %>" class="card-img-top" alt="..." height="300">
+                  <div class="card-body">
+                    <table>
+                      <tr>
+                        <td>  <h5 class="card-title"><%= item.name %></h5>
+                          <p class="card-text">₹<%= item.price %></p></td>
+                          <td><a href="/order" name="white001" class="btn btn-primary">BUY</a></td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+                </div>
+                <% }) %>
+
+
+            </div>
+
+      </section>
+
+
+
+
+    </form>
+  </body>
+</html>

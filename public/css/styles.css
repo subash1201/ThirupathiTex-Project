@@ -1,0 +1,87 @@
+.register{
+  position: absolute;
+  top:310px;
+  right:100px;
+  border-color: #ffffff;
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow:  -5px -5px 10px #f7f7f7,
+             5px 5px 10px #ffffff;
+}
+.box{
+   margin:0 30px 0 30px;
+   border-radius: 20px;
+
+}
+button{
+  margin-left: 150px;
+}
+
+.info{
+  font-family: 'Montserrat', sans-serif;
+}
+/* login.html */
+.login-title{
+  color:white;
+  text-align:center;
+  font-size: 50px;
+}
+
+.login{
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 5.0px );
+  -webkit-backdrop-filter: blur( 5.0px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.vision-heading{
+  margin-top: 15px;
+  font-size: 20px;;
+  font-style: bold;
+  text-align: center;
+}
+
+.vision-para{
+  margin:0 100px 25px 100px;
+  font-size: 1.5rem;
+  font-style: "Montserrat";
+  text-align: center;
+}
+
+#features{
+  font-family:"Montserrat";
+  padding:5%;
+  position:relative;
+  z-index: 1;
+}
+
+.icon-para{
+  font-size: 20px;
+}
+
+.product-img{
+
+  margin:30px 90px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-img{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img.card-img-top : hover{
+  position:relative;
+    top:-25px;
+    left:-35px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+
+.nav-link{
+  padding:5px 20px;
+  color:white;
+}

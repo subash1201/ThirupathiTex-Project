@@ -1,0 +1,116 @@
+{
+  "shirts":[
+    {
+      "id":101,
+      "imgName":"whiteshirt.jpeg",
+      "name":"WHITE SHIRT | FORMALS",
+      "price":499
+    },
+    {
+      "id":102,
+      "imgName":"checkblue.jpg",
+      "name":"BLUE DOTTED | SEMI-FORMALS",
+      "price":599
+    },
+    {
+      "id":103,
+      "imgName":"checkedbrown.jpeg",
+      "name":"CHECKED BROWN PATTERN | CASUALS",
+      "price":499
+    },
+    {
+      "id":104,
+      "imgName":"blueshirt.jpeg",
+      "name":"SOLID BLUE | FORMALS",
+      "price":599
+    },
+    {
+      "id":105,
+      "imgName":"greyshirt.jpeg",
+      "name":"SOLID GREY SHIRT | FORMALS",
+      "price":599
+    },
+    {
+      "id":106,
+      "imgName":"shirt.jfif",
+      "name":"CHECKED BLUE MAROON|CASUALS",
+      "price":499
+    }
+  ],
+  "tshirts":[
+    {
+      "id":201,
+      "imgName":"greenliril.jpg",
+      "name":"LIRIL GREEN | HALF SLEEVE",
+      "price":299
+    },
+    {
+      "id":202,
+      "imgName":"coolcucum.jpg",
+      "name":"COOL CUCUMBER | HALF SLEEVE",
+      "price":299
+    },
+    {
+      "id":203,
+      "imgName":"gym.jpg",
+      "name":"GYM TEES | HALF SLEEVE",
+      "price":299
+    },
+    {
+      "id":204,
+      "imgName":"introvert.jpg",
+      "name":"INTROVERT TEES | HALF SLEEVE",
+      "price":299
+    },
+    {
+      "id":205,
+      "imgName":"navyblue.jpg",
+      "name":"NAVY BLUE | FULL SLEEVE",
+      "price":349
+    },
+    {
+      "id":206,
+      "imgName":"REtshirt.jpg",
+      "name":"RE TEES | HALF SLEEVE",
+      "price":299
+    }
+  ],
+  "pants":[
+    {
+      "id":301,
+      "imgName":"blackpantmen.jpg",
+      "name":"BLACK PANT | PLAIN",
+      "price":699
+    },
+    {
+      "id":302,
+      "imgName":"brownpant.jpg",
+      "name":"BROWN PANT | SOLID",
+      "price":699
+    },
+    {
+      "id":303,
+      "imgName":"shadedpant.jpg",
+      "name":"LIGHT BROWN PANT | SOLID",
+      "price":799
+    },
+    {
+      "id":304,
+      "imgName":"bluejean.jpg",
+      "name":"BLUE JEANS | NORMAL",
+      "price":799
+    },
+    {
+      "id":305,
+      "imgName":"strippedblack.jpg",
+      "name":"BLACK PANT | STRIPPED",
+      "price":799
+    },
+    {
+      "id":306,
+      "imgName":"greyjean.jpg",
+      "name":"GRAY JEANS | NORMAL",
+      "price":799
+    }
+  ]
+}
