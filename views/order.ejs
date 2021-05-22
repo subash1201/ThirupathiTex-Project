@@ -10,66 +10,20 @@
     <style media="screen">
       body{
         background-color: #fddc47;
-        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23000001' fill-opacity='0.27'%3E%3Cpath d='M0 38.59l2.83-2.83 1.41 1.41L1.41 40H0v-1.41zM0 1.4l2.83 2.83 1.41-1.41L1.41 0H0v1.41zM38.59 40l-2.83-2.83 1.41-1.41L40 38.59V40h-1.41zM40 1.41l-2.83 2.83-1.41-1.41L38.59 0H40v1.41zM20 18.6l2.83-2.83 1.41 1.41L21.41 20l2.83 2.83-1.41 1.41L20 21.41l-2.83 2.83-1.41-1.41L18.59 20l-2.83-2.83 1.41-1.41L20 18.59z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-      }
-      .card{
-        background: rgba( 255, 255, 255, 0.25 );
-        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-        backdrop-filter: blur( 5.0px );
-        -webkit-backdrop-filter: blur( 5.0px );
-        border-radius: 10px;
-        border: 1px solid rgba( 255, 255, 255, 0.18 );
-
-      }
-      input.phonenumber::-webkit-outer-spin-button,
-      input.phonenumber::-webkit-inner-spin-button {
-        -webkit-appearance: none;
-        margin: 0;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%2382817f' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
       }
     </style>
   </head>
   <body>
     <form class="" action="/order" method="post">
-      <center>
-        <h1>Place Order</h1>
-        <div class="card" style="width:30rem;">
-          <div class="card-body">
-            <div class="input-group mb-3">
-              <label for="Size" style="margin-right:80px;">Size</label>
-              <select name="size" class="form-select" id="inputGroupSelect01">
-                <!-- <option selected>S</option> -->
-                <option value="small">S</option>
-                <option value="medium">M</option>
-                <option value="large">L</option>
-                <option value="extralarge">XL</option>
-              </select>
-            </div>
-            <div class="input-group mb-3">
-              <label for="quantity" style="margin-right:50px;">Quantity</label>
-              <input type="number" name="quantity" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-            </div>
-            <div class="input-group mb-3">
-              <label for="Name" style="margin-right:70px;">Name</label>
-              <input type="text" name="name" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-            </div>
-            <div class="form-floating">
-              <textarea class="form-control" name="address" placeholder="" id="floatingTextarea2" style="height: 100px"></textarea>
-              <label for="floatingTextarea2">Address</label>
-            </div><br><br>
-            <div class="input-group mb-3">
-              <label for="Name" style="margin-right:50px;">Landmark</label>
-              <input type="text" name="landmark" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-            </div>
-            <div class="input-group mb-3">
-              <label for="phnumber" style="margin-right:25px;">Phone Number</label>
-              <input type="number" name="phoneno" class="form-control phonenumber" >
-            </div>
-            <button type="submit" href="/final" class="btn btn-primary">Place Order</button>
-          </div>
-        </div>
-      </center>
+      <center style="margin-top:200px;">
+        <h1 style="font-size:50px; color:#28334AFF;">Your order have been successfully placed</h1><br>
+        <h3 style="color:#28334AFF">Thanks for Shopping with us</h3><br>
+        <a style="margin-right:20px;" class="btn btn-primary" href="/prod" role="button">Continue Shopping</a>
+        <a class="btn btn-primary" href="/" role="button">Log out</a>
+
+        </center>
 
     </form>
-
   </body>
 </html>
